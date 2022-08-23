@@ -5,7 +5,7 @@ calc.addEventListener('click', function(event) {
 });
 
 const inputNode = document.querySelector('.js_output');
-const outputNode = document.querySelector('.js_out ');
+const outputNode = document.querySelector('.js_out');
 
 const AC = document.querySelector('.calc_block_input_item_AC');
 const plus_or_minus = document.querySelector('.calc_block_input_item_plus_or_minus');
@@ -26,62 +26,70 @@ const plus = document.querySelector('.calc_block_input_item_plus');
 const nullValue = document.querySelector('.calc_block_input_item_0');
 const comma = document.querySelector('.calc_block_input_item_comma');
 const equally = document.querySelector('.calc_block_input_item_equally');
-AC.addEventListener('click', function() {
-    outputNode.innerHTML = 0;
-});
-plus_or_minus.addEventListener('click', function() {
-    outputNode.innerHTML = function() {
 
-    };
+
+
+AC.addEventListener('click', function() {
+    outputNode.value = 0
+});
+
+plus_or_minus.addEventListener('click', function() {
+    outputNode.value = ''
 });
 percent.addEventListener('click', function() {
-    outputNode.innerHTML = 0;
+    outputNode.value = ''
 });
 share.addEventListener('click', function() {
-    outputNode.innerHTML = 0;
+
+    outputNode.value = 0 + outputNode.value;
 });
 seven.addEventListener('click', function() {
-    outputNode.innerHTML = 7;
+    outputNode.value = 7 + outputNode.value;
 });
 eight.addEventListener('click', function() {
-    outputNode.innerHTML = 8;
+    outputNode.value = 8 + outputNode.value;
 });
 nine.addEventListener('click', function() {
-    outputNode.innerHTML = 9;
+    outputNode.value = 9 + outputNode.value;
 });
 X.addEventListener('click', function() {
-    outputNode.innerHTML = '';
+    outputNode.value = '';
 });
 four.addEventListener('click', function() {
-    outputNode.innerHTML = 4;
+    outputNode.value = 4 + outputNode.value;
 });
 five.addEventListener('click', function() {
-    outputNode.innerHTML = 5;
+    outputNode.value = 5 + outputNode.value;
 });
 six.addEventListener('click', function() {
-    outputNode.innerHTML = 6;
+    outputNode.value = 6 + outputNode.value;
 });
 minus.addEventListener('click', function() {
-    outputNode.innerHTML = '';
+    outputNode.value = '' + outputNode.value;
 });
 one.addEventListener('click', function() {
-    outputNode.innerHTML = 1;
+    outputNode.value = 1 + outputNode.value;
 });
 two.addEventListener('click', function() {
-    outputNode.innerHTML = 2;
+    outputNode.value = 2 + outputNode.value;
 });
 three.addEventListener('click', function() {
-    outputNode.innerHTML = 3;
+
+    outputNode.value = 3 + outputNode.value;
 });
 plus.addEventListener('click', function() {
-    outputNode.innerHTML = '';
+    outputNode.value = '' + outputNode.value;
 });
 nullValue.addEventListener('click', function() {
-    outputNode.innerHTML = 0;
+    outputNode.value = 0 + outputNode.value
 });
 comma.addEventListener('click', function() {
-    outputNode.innerHTML = ',';
+    outputNode.value = ',' + outputNode.value;
 });
 equally.addEventListener('click', function() {
-    outputNode.innerHTML = '';
+    outputNode.value = '' + outputNode.value;
 });
+
+function f1() {
+    alert('test');
+}
