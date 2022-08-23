@@ -1,0 +1,151 @@
+body {
+    background-color: rgb(255, 255, 255);
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    background-color: rgb(46, 46, 46);
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.calc {
+    background-color: #000;
+}
+
+.container {}
+
+.calc_block {
+    padding: 5px;
+}
+
+.js_out {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: flex-end;
+    font-size: 50px;
+    height: 80px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    color: #fff;
+}
+
+.calc_block_output input {
+    display: flex;
+    text-align: right;
+    width: 220px;
+    background-color: rgb(0, 0, 0);
+    border: none;
+    color: rgb(253, 253, 253);
+}
+
+.js_output {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+}
+
+.calc_block_output input:focus {
+    outline: none;
+}
+
+.calc_block_input {}
+
+.calc_block_input_item {}
+
+.calc_block_input_item_circl {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background-color: #111;
+    border-radius: 50%;
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    cursor: pointer;
+    margin: 3px;
+}
+
+.calc_block_input_item_row_1 {
+    display: flex;
+}
+
+.color_gray {
+    background-color: #a5a5a5;
+    color: #000;
+}
+
+.calc_block_input_item_AC {}
+
+.calc_block_input_item_plus_or_minus {}
+
+.calc_block_input_item_percent {}
+
+.calc_block_input_item_share {}
+
+.calc_block_input_item_row_2 {
+    display: flex;
+}
+
+.calc_block_input_item_7 {}
+
+.calc_block_input_item_8 {}
+
+.calc_block_input_item_9 {}
+
+.calc_block_input_item_X {}
+
+.calc_block_input_item_row_3 {
+    display: flex;
+}
+
+.calc_block_input_item_4 {}
+
+.calc_block_input_item_5 {}
+
+.calc_block_input_item_6 {}
+
+.calc_block_input_item_- {
+    font-size: 35px;
+}
+
+.calc_block_input_item_row_4 {
+    display: flex;
+}
+
+.calc_block_input_item_1 {}
+
+.calc_block_input_item_2 {}
+
+.calc_block_input_item_3 {}
+
+.calc_block_input_item_plus {
+    font-size: 30px;
+}
+
+.calc_block_input_item_row_5 {
+    display: flex;
+}
+
+.calc_block_input_item_0 {
+    width: 106px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: start;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+
+.calc_block_input_item_equally {
+    font-size: 30px;
+}
+
+.color_yellow {
+    background-color: #ff9e07;
+}
+
+.calc_block_input_item_comma {}
