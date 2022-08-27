@@ -1,66 +1,135 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="fonts/fonts.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="fonts/fonts.css" />
     <title>Document</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <div class="wrapper">
-        <div class="calc">
-            <div class="container">
-                <div class="calc_block">
-                    <div class="calc_block_output">
-                        <input type="text" class="js_out" name="inputNumber" style="direction: rtl">
-                    </div>
-                    <div class=" calc_block_input ">
-                        <div class="calc_block_input_item ">
-                            <div class="calc_block_input_item_row_1 ">
-                                <div class="calc_block_input_item_AC calc_block_input_item_circl color_gray ">AC</div>
-                                <div class="calc_block_input_item_plus_or_minus calc_block_input_item_circl color_gray ">+/-</div>
-                                <div class="calc_block_input_item_percent calc_block_input_item_circl color_gray ">%</div>
-                                <div class="calc_block_input_item_share calc_block_input_item_circl color_yellow ">/</div>
-                            </div>
-                            <div class="calc_block_input_item_row_2 ">
-                                <div class="calc_block_input_item_7 calc_block_input_item_circl ">7</div>
-                                <div class="calc_block_input_item_8 calc_block_input_item_circl ">8</div>
-                                <div class="calc_block_input_item_9 calc_block_input_item_circl ">9</div>
-                                <div class="calc_block_input_item_X calc_block_input_item_circl color_yellow ">X</div>
-                            </div>
-                            <div class="calc_block_input_item_row_3 ">
-                                <div class="calc_block_input_item_4 calc_block_input_item_circl ">4</div>
-                                <div class="calc_block_input_item_5 calc_block_input_item_circl ">5</div>
-                                <div class="calc_block_input_item_6 calc_block_input_item_circl ">6</div>
-                                <div class="calc_block_input_item_- calc_block_input_item_circl color_yellow ">-</div>
-                            </div>
-                            <div class="calc_block_input_item_row_4 ">
-                                <div class="calc_block_input_item_1 calc_block_input_item_circl ">1</div>
-                                <div class="calc_block_input_item_2 calc_block_input_item_circl ">2</div>
-                                <div class="calc_block_input_item_3 calc_block_input_item_circl ">3</div>
-                                <div class="calc_block_input_item_plus calc_block_input_item_circl color_yellow ">+</div>
-                            </div>
-                            <div class="calc_block_input_item_row_5 ">
-                                <div class="calc_block_input_item_0 calc_block_input_item_circl ">0</div>
-                                <div class="calc_block_input_item_comma calc_block_input_item_circl ">,</div>
-                                <div class=" calc_block_input_item_equally calc_block_input_item_circl color_yellow ">=</div>
-                            </div>
-
-
-
-                        </div>
-                    </div>
-                </div>
+      <div class="calc">
+        <div class="container">
+          <div class="calc_block">
+            <div class="calc_block_output">
+              <input
+                type="text"
+                class="js_out"
+                name="inputNumber"
+                style="direction: rtl"
+              />
             </div>
+            <div class="calc_block_input">
+              <div class="calc_block_input_item">
+                <div class="calc_block_input_item_row_1">
+                  <div
+                    aria-value="AC"
+                    class="calc-button calc_block_input_item_circl color_gray"
+                  >
+                    AC
+                  </div>
+                  <div
+                    aria-value="+/-"
+                    class="calc-button calc_block_input_item_circl color_gray"
+                  >
+                    +/-
+                  </div>
+                  <div
+                    aria-value="%"
+                    class="calc-button calc_block_input_item_circl color_gray"
+                  >
+                    %
+                  </div>
+                  <div
+                    aria-value="/"
+                    class="calc_block_input_item_circl color_yellow"
+                  >
+                    /
+                  </div>
+                </div>
+                <div class="calc_block_input_item_row_2">
+                  <div aria-value="7" class="calc_block_input_item_circl">
+                    7
+                  </div>
+                  <div aria-value="8" class="calc_block_input_item_circl">
+                    8
+                  </div>
+                  <div aria-value="9" class="calc_block_input_item_circl">
+                    9
+                  </div>
+                  <div
+                    aria-value="X"
+                    class="calc_block_input_item_circl color_yellow"
+                  >
+                    X
+                  </div>
+                </div>
+                <div class="calc_block_input_item_row_3">
+                  <div aria-value="4" class="calc_block_input_item_circl">
+                    4
+                  </div>
+                  <div aria-value="5" class="calc_block_input_item_circl">
+                    5
+                  </div>
+                  <div aria-value="6" class="calc_block_input_item_circl">
+                    6
+                  </div>
+                  <div
+                    aria-value="-"
+                    class="calc_block_input_item_- calc_block_input_item_circl color_yellow"
+                  >
+                    -
+                  </div>
+                </div>
+                <div class="calc_block_input_item_row_4">
+                  <div
+                    class="calc_block_input_item_1 calc_block_input_item_circl"
+                  >
+                    1
+                  </div>
+                  <div
+                    class="calc_block_input_item_2 calc_block_input_item_circl"
+                  >
+                    2
+                  </div>
+                  <div
+                    class="calc_block_input_item_3 calc_block_input_item_circl"
+                  >
+                    3
+                  </div>
+                  <div
+                    class="calc_block_input_item_plus calc_block_input_item_circl color_yellow"
+                  >
+                    +
+                  </div>
+                </div>
+                <div class="calc_block_input_item_row_5">
+                  <div
+                    class="calc_block_input_item_0 calc_block_input_item_circl"
+                  >
+                    0
+                  </div>
+                  <div
+                    class="calc_block_input_item_comma calc_block_input_item_circl"
+                  >
+                    ,
+                  </div>
+                  <div
+                    class="calc_block_input_item_equally calc_block_input_item_circl color_yellow"
+                  >
+                    =
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </div>
     <button onclick="f1() ">Touch me</button>
-
-</body>
-<script src="js/script.js "></script>
-
+  </body>
+  <script src="js/script.js "></script>
 </html>
